@@ -3,7 +3,7 @@ import Header from "./components/Header.jsx";
 import Tracker from "./components/Tracker.jsx";
 import Chart from "./components/Charts.jsx";
 import GoalForm from "./components/GoalForm.jsx";
-
+import "./App.css"
 function App() {
   const [data, setData] = useState([]);
   const [goals, setGoals] = useState({ steps: 0, water: 0, sleep: 0 });
