@@ -156,6 +156,10 @@ header p {
   margin-bottom: 1rem;
 }
 
+.btn {
+  margin: 20px 0;
+}
+
 /* Add Responsive Design */
 @media (max-width: 600px) {
   .container {

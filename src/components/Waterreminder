@@ -1,0 +1,15 @@
+import { useEffect } from "react";
+
+function WaterReminder() {
+  useEffect(() => {
+    const reminder = setInterval(() => {
+      alert("Time to drink some water!");
+    }, 7200000); // Remind every 2 hours
+
+    return () => clearInterval(reminder); // Cleanup on unmount
+  }, []);
+
+  return null; // This component doesn't render anything visible
+}
+
+export default WaterReminder;

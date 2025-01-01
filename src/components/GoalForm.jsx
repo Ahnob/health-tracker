@@ -36,7 +36,9 @@ function GoalForm({ onSetGoals }) {
           onChange={(e) => setGoalSleep(e.target.value)}
         />
       </label>
-      <button type="submit">Set Goals</button>
+      <button className="btn" type="submit">
+        Set Goals
+      </button>
     </form>
   );
 }
